@@ -1,14 +1,22 @@
 {
   "files": {
     "main.css": "/takeout-customer-demo/static/css/main.d71f7474.css",
-    "main.js": "/takeout-customer-demo/static/js/main.fb64cf45.js",
+    "main.js": "/takeout-customer-demo/static/js/main.ed430e04.js",
+    "static/media/menu7.png": "/takeout-customer-demo/static/media/menu7.4e471e380a617f7e8198.png",
+    "static/media/menu8.png": "/takeout-customer-demo/static/media/menu8.4ee7697a82552530577f.png",
+    "static/media/menu3.png": "/takeout-customer-demo/static/media/menu3.4cc8e0d93d47c18eb9aa.png",
+    "static/media/menu2.png": "/takeout-customer-demo/static/media/menu2.13cc390b74050a5c2d33.png",
+    "static/media/menu1.png": "/takeout-customer-demo/static/media/menu1.e89e1bf93f57981d8905.png",
+    "static/media/menu6.png": "/takeout-customer-demo/static/media/menu6.9c634bfb098d95a958e9.png",
     "static/media/header-bg.jpg": "/takeout-customer-demo/static/media/header-bg.2b9e86713a149442f686.jpg",
+    "static/media/menu5.png": "/takeout-customer-demo/static/media/menu5.93fc11ea9dc1005ec8f9.png",
+    "static/media/menu4.png": "/takeout-customer-demo/static/media/menu4.c594218934b041afe905.png",
     "index.html": "/takeout-customer-demo/index.html",
     "main.d71f7474.css.map": "/takeout-customer-demo/static/css/main.d71f7474.css.map",
-    "main.fb64cf45.js.map": "/takeout-customer-demo/static/js/main.fb64cf45.js.map"
+    "main.ed430e04.js.map": "/takeout-customer-demo/static/js/main.ed430e04.js.map"
   },
   "entrypoints": [
     "static/css/main.d71f7474.css",
-    "static/js/main.fb64cf45.js"
+    "static/js/main.ed430e04.js"
   ]
 }
