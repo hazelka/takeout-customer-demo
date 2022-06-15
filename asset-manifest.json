@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/takeout-customer-demo/static/css/main.d71f7474.css",
+    "main.js": "/takeout-customer-demo/static/js/main.fb64cf45.js",
+    "static/media/header-bg.jpg": "/takeout-customer-demo/static/media/header-bg.2b9e86713a149442f686.jpg",
+    "index.html": "/takeout-customer-demo/index.html",
+    "main.d71f7474.css.map": "/takeout-customer-demo/static/css/main.d71f7474.css.map",
+    "main.fb64cf45.js.map": "/takeout-customer-demo/static/js/main.fb64cf45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d71f7474.css",
+    "static/js/main.fb64cf45.js"
+  ]
+}
