@@ -17,14 +17,20 @@ class Menu extends React.Component {
     };
   }
 
+/**
+ * For demonstration of the front end design to be hosted on github public
+ * repository, sensitive information is removed. Replace with WebSocket Server 
+ * URL in production.
+ */
   componentDidMount() {
-    fetch('https://pacific-reef-95638.herokuapp.com/menu')
-      .then(response => response.json())
-      .then(menu => this.setState({ menu }))
-      .catch(error => {
-        console.log(error);
-        this.setState({ menu: sampleMenu });
-      });
+    // fetch(/** replace with WebSocket Server URL */)
+    //   .then(response => response.json())
+    //   .then(menu => this.setState({ menu }))
+    //   .catch(error => {
+    //     console.log(error);
+    //     this.setState({ menu: sampleMenu });
+    //   });
+    this.setState({ menu: sampleMenu });
   }
 
   render() {
@@ -40,7 +46,11 @@ class Menu extends React.Component {
                 name={item.name} 
                 desc={item.description} 
                 price={item.price}
-                url={item.url}
+                /**
+                 * PostgreSQL database for this project is designed to hold image URL
+                 * The code below needs to be fixed before actual production
+                 */
+                url={require('../assets' + item.url)} // Replace with URL from database
                 addToCart={() => {
                   this.props.addToCart(item.id, item.name, +item.price.slice(1))
                 }}
