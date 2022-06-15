@@ -1,0 +1,13 @@
+#menu {
+  color: white;
+  max-width: 100%;
+  border-bottom: 2px solid silver;
+  background: var(--gray);
+}
+
+#menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}

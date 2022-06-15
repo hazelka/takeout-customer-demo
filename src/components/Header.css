@@ -1,0 +1,21 @@
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../assets/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  height: calc(100vh - 50px);
+}
+
+#img-caption {
+  color: white;
+  font-size: 4rem;
+  padding: 2rem 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: 'Poiret One', cursive;
+}

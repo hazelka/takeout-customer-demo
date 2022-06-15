@@ -1,0 +1,55 @@
+.menu-item-container {
+  width: 300px;
+  height: 350px;
+  margin: 1rem;
+  display: inline-block;
+  position: relative;
+  margin: 4rem 1rem;
+}
+
+.menu-item-img {
+  width: 300px;
+  height: 200px;
+}
+
+.menu-item-desc {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3rem 2rem;
+  font-size: 1.2rem;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.menu-img-container:hover .menu-item-desc {
+  opacity: 1;
+}
+
+.menu-item-body {
+  margin-top: 1rem;
+  height: 150px;
+  position: relative;
+}
+
+.menu-item-name {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.add-btn {
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding: 0.5rem;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  background-color: darkslategrey;
+  border: none;
+  position: absolute;
+  bottom: 0;
+}
